@@ -1,0 +1,4 @@
+.*
+!.gitignore
+dns_tester_servers.json
+__pycache__/
