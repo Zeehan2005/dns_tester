@@ -2,6 +2,8 @@
 
 一个基于 PySide6 的图形化 DNS 探测工具：对同一个域名向多个 DNS 服务器（UDP / DoT / DoH）发起解析，比较各自的返回结果与耗时，并基于「多数派 IP 组合」自动标记异常结果（污染、超时、本地保留地址等）。
 
+<img width="602" height="473" alt="软件截图" src="https://github.com/user-attachments/assets/bfc6154d-ecf3-4966-b6e8-aa074429b8de" />
+
 ## 功能特性
 
 - **多协议探测**：UDP（传统 53）、DoT（DNS over TLS，853）、DoH（DNS over HTTPS，443）。
